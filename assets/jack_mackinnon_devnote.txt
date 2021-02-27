@@ -1,0 +1,11 @@
+The colors that we chose for the site are 
+
+Light Cyan/Blue: #1ecbe1
+
+Bright Red: #ee1129
+
+Light green: #0ef17c
+
+We wanted to pick colors that contrast well, differentiate well and make the site "pop"!
+
+site used: https://www.canva.com/colors/color-wheel/
