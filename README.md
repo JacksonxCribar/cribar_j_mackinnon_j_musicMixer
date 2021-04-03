@@ -1,8 +1,8 @@
-# Music Mixer Assignment Checkpoint 1 (Jackson & Jack)
+# Music Mixer Assignment Checkpoint 2 (Jackson & Jack)
 	
 This project was made for our Interactive Media Design class.
 
-## Assignment Details (1st checkpoint)
+## Assignment Details (2nd checkpoint)
 
 For this portion of the assignment we have to layout a rough draft of the final project.
 
