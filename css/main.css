@@ -1,37 +1,119 @@
-.hidden
++.hidden
 {
 	display: none;
 }
 
- /*fonts in use are temporary */
 
- /*colours used are also just temporary*/
 
 body
 {
 	
 	font-family: arial;
-	
+	text-align: center;
+	background-color: #cecece;
+
 }
 
 .container
 {
-	
-	text-align: center;
-	padding: 10px;
-	background-color: #1ecbe1;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 10px;
+	max-width: 1920px
+	margin: 0 auto;
 	
 }
 
 .mainHeader
 {
-	font-weight: bold;
+	background-color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 80px;
 }
 
-.welcomeText
+
+
+
+.introText
 {
-	margin-top: 10px;
+	background-color: #76cfe8;
+	height: 60px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	line-height: 30px;
+	font-family: arial;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-weight: 600;
+
+}
+
+
+
+
+
+
+.topBorder
+{
+	background-color: #76cfe8;
+	width: 1920px;
+	height: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.bottomheaderBorder
+{
+	background-color: #76cfe8;
+	width: 1920px;
+	height: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+
+.bottomBorder1
+{
+	background-color: #76cfe8;
+	width: 1920px;
+	height: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 20px;
+}
+
+.bottomBorder2
+{
+	background-color: #76cfe8;
+	width: 1920px;
+	height: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.middle
+{
+	background-color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 80px;
+}
+
+.songs
+{
+	text-align: left;
+	background-color: #ffffff;
+	border-radius: 10px;
+	width: 200px;
+	margin-top: 20px;
+	padding: 10px;
+	line-height: 25px;
+}
+
+.songs h2
+{
+	font-weight: 750;
+}
+
+.box
+{
+	margin-left: 20px;
 }
