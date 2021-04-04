@@ -72,6 +72,54 @@ body
 }
 
 
+
+
+
+
+.dragArea
+{
+	margin-bottom: 20px;
+}
+
+
+.boxleft
+{
+	margin-right: auto;
+	height: 600px;
+	width: 200px;
+	background-color: #ffffff;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.dropArea
+{
+	background-color: #ffffff;
+	border-radius: 10px;
+	width: 300px;
+	height: 130px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	line-height: 120px;
+	font-weight: 600;
+}	
+
+.reset
+{
+	margin-bottom: 20px;
+
+}
+
 .bottomBorder1
 {
 	background-color: #76cfe8;
@@ -97,23 +145,4 @@ body
 	height: 80px;
 }
 
-.songs
-{
-	text-align: left;
-	background-color: #ffffff;
-	border-radius: 10px;
-	width: 200px;
-	margin-top: 20px;
-	padding: 10px;
-	line-height: 25px;
-}
 
-.songs h2
-{
-	font-weight: 750;
-}
-
-.box
-{
-	margin-left: 20px;
-}
