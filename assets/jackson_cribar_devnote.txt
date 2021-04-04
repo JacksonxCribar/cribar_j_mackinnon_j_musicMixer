@@ -9,3 +9,6 @@ Light green: #0ef17c
 I  think these colours contrast nicely and will have a good colour pallete for the site
 
 site used: https://www.canva.com/colors/color-wheel/
+
+I wasn't able to get the drag and drop feature to work properly, it kept giving me a error when i went into inspect element
+will look into how to fix it after the first part of the FIP is finished. 
