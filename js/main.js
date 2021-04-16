@@ -35,7 +35,7 @@ function dropped(event) {
 
 
 	if (!audioPlay) { return; }
-	audioPlay.currentTime = 0
+	audioPlay.currentTime = 0;
 	audioPlay.play(),
 	audioPlay.volume = 0.5;
 	
