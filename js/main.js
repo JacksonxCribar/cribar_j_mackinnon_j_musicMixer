@@ -38,6 +38,7 @@ function dropped(event) {
 	audioPlay.currentTime = 0
 	audioPlay.play(),
 	audioPlay.volume = 0.5;
+	
 	}
 
 
