@@ -1,42 +1,47 @@
 (()=> {
-	console.log('js is linked up');
+	console.log('JS is linked up');
 })();
 
-const dragImages = document.querySelectorAll(".draggable"),
-	dropArea = document.querySelector(".dropZone"),
-	dragArea = document.querySelector(".dragArea");
+	const dragImages = document.querySelectorAll(".draggable"),
+		leftDrop = document.querySelector(".dropL"),
+		rightDrop = document.querySelector(".dropR"),
+		dropZone = document.querySelectorAll ('.dropZone'),
+		dragArea = document.querySelector(".dragArea");
 
 	
 	//----functions----//
 
 function dragStart(event) {
-	console.log('You Dragged an Image');
+	console.log('hey quit dragging me around');
 	event.dataTransfer.setData("savedID", this.id);
 }
 
 function draggedOver(event) {
 	event.preventDefault();
-	console.log('Dragged Over');
+	console.log('please put me down');
 }
 
 function dropped(event) {
-	console.log('youve been dropped son');
+	console.log('thanks for putting me down, enjoy the tunes');
 	
 
-	let targetID = eventdataTransfer.getData("savedID"),
+	let targetID = event.dataTransfer.getData("savedID"),
 	audioPlay = document.querySelector(`audio[data-value="${targetID}]`);
 
 
 	if (this.childNodes.length > 0) { return; }
-	console.log("yo stop draggin me around:", targetID, "!");
+	console.log("Now playing:", targetID, "!");
 	this.appendChild(document.querySelector(`#${targetID}`));
 
 
 	if (!audioPlay) { return; }
 	audioPlay.currentTime = 0
 	audioPlay.play(),
-	audioPlay.volume = 0.2;
+	audioPlay.volume = 0.5;
+	
 	}
+
+
 
 	//----event handling----//
 
@@ -50,10 +55,15 @@ function dropped(event) {
 
 	dragImages.forEach(piece => piece.addEventListener('dragstart', dragStart));
 	
-	dropArea.forEach(zone => {
+	dropZone.forEach(zone => {
 		zone.addEventListener("dragover", draggedOver);
 		zone.addEventListener("drop", dropped);
 	})
+
+
+
+
+
 
 
 
