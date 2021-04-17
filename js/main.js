@@ -26,7 +26,7 @@ function dropped(event) {
 	
 
 	let targetID = event.dataTransfer.getData("savedID"),
-	audioPlay = document.querySelector(`audio[data-value="${targetID}]`);
+	audioPlay = document.querySelector(`audio[data-value="${targetID}"]`);
 
 
 	if (this.childNodes.length > 0) { return; }
@@ -36,8 +36,8 @@ function dropped(event) {
 
 	if (!audioPlay) { return; }
 	audioPlay.currentTime = 0;
-	audioPlay.play(),
-	audioPlay.volume = 0.5;
+	audioPlay.play();
+	audioPlay.volume = 0.4;
 	
 	}
 
@@ -59,6 +59,8 @@ function dropped(event) {
 		zone.addEventListener("dragover", draggedOver);
 		zone.addEventListener("drop", dropped);
 	})
+
+
 
 
 
