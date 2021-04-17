@@ -4,42 +4,142 @@
 	<title>Jackson & Jack's Music Mixer</title>
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 			<link href="css/main.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
+	
+	<!-- <div class="topBorder"></div> -->
+	
 
+
+	<div class="topBorder"></div>
+
+
+		
 	<div class="container">
+		
+			
 		<header class="mainHeader">
-			<h1>Welcome to Jackson & Jack's Music Mixer</h1>
+			
+			
 
+			<div class="introText">
+			
+				<h1>Welcome to Jackson & Jack's Music Mixer</h1>
+					<h2>Use this site to relax whenever you feel stressed</h2>
+			
+			</div>
 
 		</header>
+		
+	<div class="bottomheaderBorder"></div>
 
-		<div class="welcomeText">
-			<section class="intro">
-					<h2>With this Music Maker you can mix your own songs</h2>
+	<section class="dragArea">
+		
+		<div class="boxleft">
+				<div class="iconsLeft">
+				<div class="icon1">
+				<img id="azura" class="draggable" src="images/icons/azura.svg" alt="one" width="150" height="90" data-value="azura">
+				</div>	
+				<div class="icon2">
+				<img id="bliss" class="draggable" src="images/icons/bliss.svg" alt="two" width="150" height="90" data-value="bliss">
+				</div>		
+				<div class="icon3">
+				<img id="cudi" class="draggable" src="images/icons/cudi.svg" alt="three" width="150" height="90" data-value="cudi">
+				</div>			
+				<div class="icon4">
+				<img id="flow" class="draggable" src="images/icons/flow.svg" alt="four" width="150" height="90" data-value="flow">
+				</div>				
+				<div class="icon5">
+				<img id="spirit" class="draggable" src="images/icons/spirit.svg" alt="five" width="150" height="90" data-value="spirit">
+				</div>			
+				<div class="icon6">
+				<img id="times" class="draggable" src="images/icons/times.svg" alt="six" width="150" height="90" data-value="times">
+				</div>
+				</div>
+			</div>
 
-			</section>
+
+			<div class="boxRight">
+					<div class="natureIcon">
+						<img id="nature" class="draggable" src="images/icons/nature.svg" alt="seven" width="150" height="60" data-value="nature">
+					</div>
+
+					<div class="cityIcon">
+						<img id="city" class="draggable" src="images/icons/city.svg" alt="eight" width="150" height="60" data-value="city">
+					</div>
+
+					<div class="fireIcon">
+						<img id="fire" class="draggable" src="images/icons/fire.svg" alt="nine" width="150" height="60" data-value="fire">
+					</div>
+
+					<div class="crowdIcon">
+						<img id="crowd" class="draggable" src="images/icons/crowd.svg" alt="ten" width="150" height="60" data-value="crowd">
+					</div>
+
+					<div class="partyIcon">
+						<img id="party" class="draggable" src="images/icons/party.svg" alt="ten" width="150" height="60" data-value="party">
+					</div>
+
+					<div class="rainIcon">
+						<img id="rain" class="draggable" src="images/icons/rain.svg" alt="eleven" width="150" height="60" data-value="rain">
+					</div>
+			
+			</div>
+
+
+			
+
+
+</section>
 
 
 
 
-		</div>
+
+<div class="reset">
+	<button id="resetButton" type="reset" onclick="document.location.reload()">Click here to Reset</button>
+
+
+</div>
 
 
 
 
+<section class="drop_Zone">
+		
+		<div class="dropZone dropL"></div>
+		<div class="dropZone dropR"></div>
+			
+</section>
 
 
+		
 
 
-
-
-
-
+		
 	</div>
+	<div class="bottomBorder1"></div>
+	<div class="middle"></div>	
+	<div class="bottomBorder2"></div>
 
+<!-- left drag -->
+<audio data-value="azura" src="assets/audio_inspo/azura.mp3" loop></audio>
+	<audio data-value="bliss" src="assets/audio_inspo/bliss.mp3" loop></audio>
+		<audio data-value="cudi" src="assets/audio_inspo/cudi.mp3" loop></audio>
+			<audio data-value="flow" src="assets/audio_inspo/flow.mp3" loop></audio>
+				<audio data-value="spirit" src="assets/audio_inspo/spirit.mp3" loop></audio>
+					<audio data-value="times" src="assets/audio_inspo/times.mp3" loop></audio>
 
+<!-- right drag -->
+<audio data-value="nature" src="assets/audio_inspo/nature.mp3" loop></audio>
+	<audio data-value="city" src="assets/audio_inspo/city.mp3" loop></audio>
+		<audio data-value="fire" src="assets/audio_inspo/fire.mp3" loop></audio>
+			<audio data-value="crowd" src="assets/audio_inspo/crowd.mp3" loop></audio>
+				<audio data-value="party" src="assets/audio_inspo/party.mp3" loop></audio>
+					<audio data-value="rain" src="assets/audio_inspo/rain.mp3" loop></audio>
 
 <script src="js/main.js"></script>
+	
 </body>
 </html>

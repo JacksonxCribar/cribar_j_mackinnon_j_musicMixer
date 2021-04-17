@@ -3,35 +3,468 @@
 	display: none;
 }
 
- /*fonts in use are temporary */
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
- /*colours used are also just temporary*/
+
+
 
 body
 {
 	
 	font-family: arial;
+	text-align: center;
+	background-color: #cecece;
 	
 }
 
+
+
+
+
 .container
 {
-	
-	text-align: center;
-	padding: 10px;
-	background-color: #1ecbe1;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top: 10px;
+	max-width: 1920px
+	margin: 0 auto;
+	font-family: open_sansbold;
+
+
 	
 }
 
 .mainHeader
 {
-	font-weight: bold;
+	background-color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 80px;
+	
 }
 
-.welcomeText
+
+
+
+.introText
 {
-	margin-top: 10px;
+	background-color: #76cfe8;
+	height: 60px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	line-height: 30px;
+	font-family: open_sansbold;
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-weight: 600;
+
+
 }
+
+.introText h2
+{
+	font-size: 13px;
+}
+
+
+
+
+
+
+.topBorder
+{
+	background-color: #76cfe8;
+	width: 1920px;
+	height: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.bottomheaderBorder
+{
+	background-color: #76cfe8;
+	width: 1920px;
+	height: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+
+
+
+
+
+.dragArea
+{
+	margin-bottom: 20px;
+	display: flex;
+}
+
+
+.boxleft
+{
+	margin-right: auto;
+	height: 550px;
+	width: 300px;
+	background-color: #ffffff;
+	margin-left: 150px;
+	margin-top: 20px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-image: url(https://i.makeagif.com/media/3-05-2016/0mCtM3.gif);
+	background-repeat: no-repeat;
+	background-size: 500px 700px;
+
+}
+
+.iconsLeft
+{
+	margin-right: 20px;
+	
+
+}
+
+.icon1
+{
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+
+}
+
+.icon1:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+.icon2
+{
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.icon2:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+.icon3
+{
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.icon3:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+.icon4
+{
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.icon4:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+.icon5
+{
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.icon5:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+.icon6
+{
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.icon6:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+.boxRight
+{
+	margin-left: auto;
+	height: 550px;
+	width: 300px;
+	background-color: #ffffff;
+	margin-right: 150px;
+	margin-top: 20px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-image: url(https://i.pinimg.com/originals/7f/11/23/7f11238c3e79ea4deaad67b7b70921f9.gif);
+	
+}
+
+
+
+.natureIcon
+{
+	margin-bottom: 30px;
+	margin-top: 10px;
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.natureIcon:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+.cityIcon
+{
+	margin-bottom: 30px;
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.cityIcon:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+.fireIcon
+{
+	margin-bottom: 30px;
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.fireIcon:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+.crowdIcon
+{
+	margin-bottom: 30px;
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.crowdIcon:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+.partyIcon
+{
+	margin-bottom: 30px;
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.partyIcon:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+.rainIcon
+{
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+  cursor: -webkit-grabbing; cursor: grabbing;
+}
+
+.rainIcon:hover
+{
+	-ms-transform: scale(.80);
+        -moz-transform: scale(.80);
+        -webkit-transform: scale(.80);
+        -o-transform: scale(.80);
+        transform: scale(.80);
+}
+
+
+
+.drop_Zone
+{
+	display: flex;
+}
+
+.dropL
+{
+	width: 200px;
+	height: 200px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.dropR
+{
+	width: 200px;
+	height: 200px;
+	background-color: #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+	
+
+
+
+.reset
+{
+	margin-bottom: 20px;
+	-webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+
+}
+
+.reset:hover
+{
+	-ms-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+
+}
+
+.reset button
+{
+	
+	cursor: pointer;
+	height: 50px;
+	border-radius: 10px;
+
+}
+
+.reset button:hover
+{
+	font-style: italic;
+}
+
+.bottomBorder1
+{
+	background-color: #76cfe8;
+	width: 1920px;
+	height: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 20px;
+}
+
+.bottomBorder2
+{
+	background-color: #76cfe8;
+	width: 1920px;
+	height: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.middle
+{
+	background-color: #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 80px;
+}
+
+
