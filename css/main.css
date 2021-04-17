@@ -366,7 +366,7 @@ body
   -o-transition: all .5s;
   transition: all .5s;
   cursor: -webkit-grabbing; cursor: grabbing;
-  
+  `
 }
 
 .rainIcon:hover
