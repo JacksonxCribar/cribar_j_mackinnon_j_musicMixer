@@ -366,6 +366,7 @@ body
   -o-transition: all .5s;
   transition: all .5s;
   cursor: -webkit-grabbing; cursor: grabbing;
+  
 }
 
 .rainIcon:hover
@@ -375,6 +376,7 @@ body
         -webkit-transform: scale(.80);
         -o-transform: scale(.80);
         transform: scale(.80);
+
 }
 
 
@@ -439,9 +441,9 @@ body
 
 .middleText
 {
-	margin-top: 100px;
+	margin-top: 250px;
 	background-color: #ffffff;
-	height: 50px;
+	height: 100px;
 	width: 600px;
 	line-height: 50px;
 	border-radius: 20px;

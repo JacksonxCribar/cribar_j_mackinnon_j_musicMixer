@@ -1,16 +1,35 @@
-# Music Mixer Assignment Checkpoint 2 (Jackson & Jack)
-	
-This project was made for our Interactive Media Design class.
+## Jackson & Jack's Music Mixer
 
-## Assignment Details (2nd checkpoint)
+## Made with Comfort and Relaxation in mind:
 
-In this checkpoint we weren't able to figure out how to get the D&D feature to work correctly, we were able to get the first part to work
-but nothing would come after the first part where it confirms that you have grabbed an image
+Having a bad day? Stressed out? Well this site is just for you then! With a collection of 6 relaxing chill beats, and 6 various sounds for background noise
+all with chill vibes in mind
 
-## Features
+## Features:
 
-Once this assignment is completed you'll be able to mix your own sick songs. 
+- 12 total sounds that you can mix and match to your hearts content! 
 
-## Credit
+- simple drag and drop functionality for ease of use
 
-Made by Jackson Cribar and Jack Mackinnon
+- Reset button when for when you want to change your combo of sounds
+
+## Developer Reccomendations
+
+- Jack's Pick: Times & Rain
+
+- Jackson's Pick: Bliss & Fire
+
+## What do you need?
+
+- Internet
+
+- A computer
+
+## Team Members
+
+- Jack Mackinnon
+
+- Jackson Cribar
+
+
+
